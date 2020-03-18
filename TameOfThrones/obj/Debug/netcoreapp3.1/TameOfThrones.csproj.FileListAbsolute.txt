@@ -1,0 +1,11 @@
+F:\Repos\TameOfThrones\TameOfThrones\bin\geektrust.exe
+F:\Repos\TameOfThrones\TameOfThrones\bin\geektrust.deps.json
+F:\Repos\TameOfThrones\TameOfThrones\bin\geektrust.runtimeconfig.json
+F:\Repos\TameOfThrones\TameOfThrones\bin\geektrust.runtimeconfig.dev.json
+F:\Repos\TameOfThrones\TameOfThrones\bin\geektrust.dll
+F:\Repos\TameOfThrones\TameOfThrones\bin\geektrust.pdb
+F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.csprojAssemblyReference.cache
+F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.AssemblyInfoInputs.cache
+F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.AssemblyInfo.cs
+F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\geektrust.dll
+F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\geektrust.pdb
