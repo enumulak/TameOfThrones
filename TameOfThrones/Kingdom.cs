@@ -84,7 +84,7 @@ namespace TameOfThrones
 
                 for (var i = 0; i < allies.Count; i++)
                 {
-                    Console.WriteLine("Ally {0}: {1}", i + 1, allies[i].GetKingdomName());
+                    Console.WriteLine(allies[i].GetKingdomName());
                 }
             }
             else
