@@ -9,3 +9,14 @@ F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.Assem
 F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.AssemblyInfo.cs
 F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\geektrust.dll
 F:\Repos\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\geektrust.pdb
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\bin\geektrust.exe
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\bin\geektrust.deps.json
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\bin\geektrust.runtimeconfig.json
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\bin\geektrust.runtimeconfig.dev.json
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\bin\geektrust.dll
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\bin\geektrust.pdb
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.AssemblyInfoInputs.cache
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.AssemblyInfo.cs
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\geektrust.dll
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\geektrust.pdb
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.csprojAssemblyReference.cache
