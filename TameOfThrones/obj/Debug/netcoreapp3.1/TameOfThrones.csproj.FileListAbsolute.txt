@@ -20,3 +20,9 @@ C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThr
 C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\geektrust.dll
 C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\geektrust.pdb
 C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones\obj\Debug\netcoreapp3.1\TameOfThrones.csprojAssemblyReference.cache
+F:\Repos\TameOfThrones\TameOfThrones\bin\Debug\netcoreapp3.1\geektrust.exe
+F:\Repos\TameOfThrones\TameOfThrones\bin\Debug\netcoreapp3.1\geektrust.deps.json
+F:\Repos\TameOfThrones\TameOfThrones\bin\Debug\netcoreapp3.1\geektrust.runtimeconfig.json
+F:\Repos\TameOfThrones\TameOfThrones\bin\Debug\netcoreapp3.1\geektrust.runtimeconfig.dev.json
+F:\Repos\TameOfThrones\TameOfThrones\bin\Debug\netcoreapp3.1\geektrust.dll
+F:\Repos\TameOfThrones\TameOfThrones\bin\Debug\netcoreapp3.1\geektrust.pdb
