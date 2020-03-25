@@ -20,7 +20,7 @@ namespace TameOfThrones
         //Constructor with Arguments - no other Constructor for Kingdom is allowed. Instance of Kingdom can be created only with this Constructor
         public Kingdom(string name, string emblem)
         {
-            Name = name;
+            Name = name.ToUpper();
             Emblem = emblem;
         }
 
@@ -78,7 +78,7 @@ namespace TameOfThrones
         //Method used by Current Kingdom to Display its Allies
         public void DisplayAllies()
         {
-            if (allies.Count > 0)
+            if (allies.Count >= 3)
             {
                 Console.WriteLine(this.GetKingdomName());
 
@@ -89,7 +89,8 @@ namespace TameOfThrones
             }
             else
             {
-                Console.WriteLine("{0} has no Allies...", GetKingdomName());
+                //Console.WriteLine("{0} has no Allies...", GetKingdomName());
+                Console.WriteLine("NONE");
             }
         }
 
