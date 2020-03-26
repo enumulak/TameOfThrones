@@ -12,28 +12,56 @@ namespace TameOfThrones
         {
             AlphabetList = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
         }
-
-        public string DecryptMessage(string msg, int key)
+                
+        public string MessageHandler(string msg, int key, CipherType cypherType)
         {
             StringBuilder sb = new StringBuilder();
 
-            string msgToDecrypt = msg.ToUpper();
+            msg = msg.ToUpper();
 
-            for (int i = 0; i < msgToDecrypt.Length; i++)
+            int rIndex = 0;
+
+            for (int i = 0; i < msg.Length; i++)
             {
-                char temp = msgToDecrypt[i];
+                char temp = msg[i];
                 int cIndex = AlphabetList.IndexOf(temp);
-                int rIndex = cIndex - key;
 
-                if (rIndex < 0)
+                switch (cypherType)
                 {
-                    rIndex = AlphabetList.Length + rIndex;
+                    case CipherType.encryption:
+
+                        rIndex = cIndex + key;
+
+                        if (rIndex >= AlphabetList.Length)
+                        {
+                            rIndex = rIndex - AlphabetList.Length;
+                        }
+                        break;
+
+                    case CipherType.decryption:
+
+                        rIndex = cIndex - key;
+
+                        if (rIndex < 0)
+                        {
+                            rIndex = AlphabetList.Length + rIndex;
+                        }
+                        break;
+
+                    default:
+                        break;
                 }
 
                 sb.Append(AlphabetList[rIndex]);
             }
 
             return sb.ToString();
+        }
+
+        public enum CipherType
+        {
+            encryption,
+            decryption
         }
     }
 }

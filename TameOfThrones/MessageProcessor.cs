@@ -20,7 +20,7 @@ namespace TameOfThrones
             Receiver = receiver;
 
             //Send the message to Seasar for decryption
-            string dMsg = sCipher.DecryptMessage(msg, receiver.GetEmblemCharCount());
+            string dMsg = sCipher.MessageHandler(msg, receiver.GetEmblemCharCount(), Seasar.CipherType.decryption);
 
             ProcessMessageForKingdom(dMsg, Receiver);
         }

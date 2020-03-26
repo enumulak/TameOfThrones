@@ -6813,23 +6813,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Cyntexia\\.nuget\\packages\\": {},
+    "C:\\Users\\User\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Repos\\TameOfThrones\\TameOfThrones.Tests\\TameOfThrones.Tests.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Documents\\Source\\Repos\\DotNetCore Projects\\TameOfThrones\\TameOfThrones.Tests\\TameOfThrones.Tests.csproj",
       "projectName": "TameOfThrones.Tests",
-      "projectPath": "F:\\Repos\\TameOfThrones\\TameOfThrones.Tests\\TameOfThrones.Tests.csproj",
-      "packagesPath": "C:\\Users\\Cyntexia\\.nuget\\packages\\",
-      "outputPath": "F:\\Repos\\TameOfThrones\\TameOfThrones.Tests\\obj\\",
+      "projectPath": "C:\\Users\\User\\Documents\\Source\\Repos\\DotNetCore Projects\\TameOfThrones\\TameOfThrones.Tests\\TameOfThrones.Tests.csproj",
+      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\User\\Documents\\Source\\Repos\\DotNetCore Projects\\TameOfThrones\\TameOfThrones.Tests\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\Cyntexia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -6842,8 +6842,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "F:\\Repos\\TameOfThrones\\TameOfThrones\\TameOfThrones.csproj": {
-              "projectPath": "F:\\Repos\\TameOfThrones\\TameOfThrones\\TameOfThrones.csproj"
+            "C:\\Users\\User\\Documents\\Source\\Repos\\DotNetCore Projects\\TameOfThrones\\TameOfThrones\\TameOfThrones.csproj": {
+              "projectPath": "C:\\Users\\User\\Documents\\Source\\Repos\\DotNetCore Projects\\TameOfThrones\\TameOfThrones\\TameOfThrones.csproj"
             }
           }
         }
@@ -6889,7 +6889,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.101\\RuntimeIdentifierGraph.json"
       }
     }
   }

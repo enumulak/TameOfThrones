@@ -8,7 +8,6 @@ namespace TameOfThrones
         {
             Console.ForegroundColor = ConsoleColor.Yellow;
 
-            
             //All proceedings begin in Southeros...
             Southeros.Instance.BeginShanConquest(args[0]);
 
