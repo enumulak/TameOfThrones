@@ -42,11 +42,22 @@ namespace TameOfThrones
                     {
                         string[] lines = s.Split();
 
+                        string messageToKingdom = "";
+
+                        if (lines.Length > 2)
+                        {
+                            messageToKingdom = ConvertStringArrayToString(lines);
+                        }
+                        else
+                        {
+                            messageToKingdom = lines[1];
+                        }
+
                         for (int i = 0; i < allKingdoms.Count; i++)
                         {
                             if (allKingdoms[i].GetKingdomName().ToLower() == lines[0].ToLower())
                             {
-                                conqueror.SendMessage(lines[1], allKingdoms[i]);
+                                conqueror.SendMessage(messageToKingdom, allKingdoms[i]);
                             }
                         }
                     }
@@ -61,6 +72,19 @@ namespace TameOfThrones
             conqueror.DisplayAllies();
 
             #endregion
+        }
+
+        // Helper Methods
+        public string ConvertStringArrayToString(string[] arr)
+        {
+            StringBuilder sb = new StringBuilder();
+
+            for (int i = 1; i < arr.Length; i++)
+            {
+                sb.Append(arr[i]);
+            }
+
+            return sb.ToString();
         }
     }
 }

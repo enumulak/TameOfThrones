@@ -11,6 +11,9 @@ namespace TameOfThrones
             //All proceedings begin in Southeros...
             Southeros.Instance.BeginShanConquest(args[0]);
 
+            //string path = @"C:\Input\input3.txt";
+            //Southeros.Instance.BeginShanConquest(path);
+
             Console.ReadLine();
         }
     }

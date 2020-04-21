@@ -188,3 +188,5 @@ C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThr
 C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones.Tests\obj\Debug\netcoreapp3.1\TameOfThrones.Tests.csproj.CopyComplete
 C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones.Tests\obj\Debug\netcoreapp3.1\TameOfThrones.Tests.dll
 C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones.Tests\obj\Debug\netcoreapp3.1\TameOfThrones.Tests.pdb
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones.Tests\obj\Debug\netcoreapp3.1\TameOfThrones.Tests.csproj.CoreCompileInputs.cache
+C:\Users\User\Documents\Source\Repos\DotNetCore Projects\TameOfThrones\TameOfThrones.Tests\obj\Debug\netcoreapp3.1\TameOfThrones.Tests.genruntimeconfig.cache

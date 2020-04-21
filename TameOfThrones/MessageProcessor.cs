@@ -1,4 +1,5 @@
 ﻿using System.Linq;
+using System.Text;
 
 namespace TameOfThrones
 {
@@ -27,7 +28,12 @@ namespace TameOfThrones
 
         private void ProcessMessageForKingdom(string msg, Kingdom r)
         {
-            var found = r.GetEmblem().ToCharArray().Select(c => char.ToUpper(c)).Distinct().All(c => msg.ToUpper().Contains(c));
+            char[] emblem = r.GetEmblem().ToLower().ToCharArray();
+            char[] message = msg.ToLower().ToCharArray();
+                        
+            var found = emblem.All(x => emblem.Count(y => y == x) <= message.Count(y => y == x));
+
+            //var found = cArray1.GroupBy(c1 => c1).All(g => cArray2.Count(c2 => c2 == g.Key) >= g.Count())
 
             if (found)
             {

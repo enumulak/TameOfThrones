@@ -16,13 +16,14 @@ namespace TameOfThrones.Tests
             //Arrange
             
             var kingdomOne = new Kingdom("Space", "Gorilla");
-            var kingdomTwo = new Kingdom("Air", "Owl");
+            //var kingdomTwo = new Kingdom("Air", "Owl");
+            var kingdomTwo = new Kingdom("Fire", "Dragon");
 
             //This message will be sent to the 'Air' kingdom and is encrypted. Our core logic will decrypt the message and that 
             //message will contain characters from the symbol of 'Air'
-            var message = "rozo";
+            var message = "DRAGONJXGMUT";
 
-            string ally = "AIR";
+            string ally = "FIRE";
 
             //Act
 
